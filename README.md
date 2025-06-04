@@ -5,11 +5,10 @@
 ## Highlights:
 
 - 🚀 Tech stack: Next.js, React, Tailwind & Shadcn UI
-- 🎙️ Voice AI Assistant (Vapi)
 - 🧠 LLM Integration (Gemini AI)
 - 🏋️ Personalized Workout Plans
 - 🥗 Custom Diet Programs
-- 🔒 Authentication & Authorization (Clerk)
+- 🔒 Authentication & Authorization (JWT)
 - 💾 Database (MongoDB)
 - 🎬 Real-time Program Generation
 - 💻 Layouts
@@ -27,18 +26,6 @@
 ## Setup .env file
 
 ```js
-# Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-
-# Clerk Redirect URLs
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/login
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-
-# Vapi Voice AI
-NEXT_PUBLIC_VAPI_WORKFLOW_ID=
-NEXT_PUBLIC_VAPI_API_KEY=
-
 # MongoDB Database
 MONGODB_URI=mongodb://localhost:27017/fitness-trainer
 # JWT Authentication
@@ -92,8 +79,6 @@ Or connect your GitHub repository to Vercel for automatic deployments.
 To learn more about the technologies used in this project:
 
 - [Next.js Documentation](https://nextjs.org/docs)
-- [Clerk Documentation](https://clerk.com/docs)
-- [Vapi Documentation](https://docs.vapi.ai)
 - [MongoDB Documentation](https://docs.mongodb.com)
 - [JWT Documentation](https://jwt.io/introduction)
 - [OpenAI API Documentation](https://platform.openai.com/docs)
